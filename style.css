@@ -1,0 +1,177 @@
+/*IMPORTS*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */ }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */ }
+
+p {
+  color: lightgray; }
+
+/*HOJA DE ESTILO DE INDEX1.HTML*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Raleway', sans-serif;
+	background-color: #adcae2cb	
+}
+main{
+    width: 100%;
+    margin top: 10px;
+    margin left: 10px;
+    background-color: #adcae2cb;}
+footer{
+      background-color: rgb(255, 255, 255);
+      width: auto;
+      height: 10px;
+      text-align: center;
+      height: 15px;
+    }
+#nefooter .section-title {
+        font-size: 22px;
+        color: #083c58;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    
+#nefooter .contact-info {
+        margin: 0 0 60px 0;
+        padding: 0;
+    }
+    
+#nefooter .contact-info li {
+        font-size: 14px;
+        list-style: none;
+        margin: 0 0 20px 0;
+        position: relative;
+    }
+    
+#nefooter .contact-info li a{
+        padding-left: 10px;
+    }
+header h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+  height: 100%; }
+
+.titulo {
+  border: solid 6px black;
+  padding: 2px;}
+  
+.encabezado {
+    font-family: "raleway";
+    font-size: 18px;
+    text-align: justify-all;
+    color: black; }
+.textoserv{
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.seccionesindex{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*FIN HOJA DE ESTILO INDEX1.HTML*/
+/*INICIO HOJA DE ESTILO NUESTROEQUIPO.HTML*/
+#primertitulo {
+  font-style: italic;
+  font-weight: bold;
+  color: #1A5E86;
+  font-size: 40px;
+  word-spacing: 10px;
+  text-align: center; }
+
+.nuestroequip {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 200px 200px;
+  grid-template-areas: "imagen1 descrip1"
+ "imagen2 descrip2";
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .nuestroequip .imagen1 {
+    grid-area: imagen1;
+    padding-left: 50px; }
+  .nuestroequip .imagen2 {
+    grid-area: imagen2;
+    padding-left: 50px; }
+
+.nuestroequip__descrip1 {
+  grid-area: descrip1; }
+
+.nuestroequip__descrip2 {
+  grid-area: descrip2; }
+.descripus{
+  color: black;
+}
+h4 {
+  font-size: 15px;
+  color: #1A5E86;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 10px; }
+#nefooter .section-title {
+    font-size: 22px;
+    color: #1A5E86;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#nefooter .contact-info {
+    margin: 0 0 60px 0;
+    padding: 0;
+}
+
+#nefooter .contact-info li {
+    font-size: 14px;
+    list-style: none;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+#nefooter .contact-info li a{
+    padding-left: 10px;
+}
+
+/*FIN HOJA DE ESTILO NUESTROEQUIPO.HTML*/
